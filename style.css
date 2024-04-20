@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+body{
+    background-image: url(img/Plano\ de\ fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: rgb(153, 0, 74);
+    font-weight: 700;
+
+}
+
+.informacoes{
+    display: flex;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+    align-items: end;
+    flex-direction: column;
+}
+
+.informacoes p{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+
+.cabecario{
+    display: flex;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.inputs{
+    display: flex;
+    color: rgb(44, 44, 44);
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+
+#inputemail{
+    width: 200px;
+    height: 20px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+#inputsenha{
+    width: 200px;
+    height: 20px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+
+.botaologin{
+    width: 100px;
+    height: 30px;
+    color: rgb(220, 220, 220);
+    background-color: #000000;
+    border-radius: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-style: none;
+}
